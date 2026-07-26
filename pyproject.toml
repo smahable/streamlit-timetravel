@@ -22,8 +22,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/smahabl/streamlit-timetravel"
-Repository = "https://github.com/smahabl/streamlit-timetravel"
+Homepage = "https://github.com/smahable/streamlit-timetravel"
+Repository = "https://github.com/smahable/streamlit-timetravel"
 
 [tool.setuptools]
 py-modules = ["state_manager"]
