@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "streamlit-timetravel"          # check this name is free on pypi.org before publishing
+version = "0.1.0"
+description = "Undo/redo + per-user session resume for Streamlit apps, backed by SQLite."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "sm2026jul", email = "sm2026jul@gmail.com" },
+]
+dependencies = [
+    "streamlit>=1.31",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Framework :: Streamlit",
+]
+
+[project.urls]
+Homepage = "https://github.com/smahabl/streamlit-timetravel"
+Repository = "https://github.com/smahabl/streamlit-timetravel"
+
+[tool.setuptools]
+py-modules = ["state_manager"]
